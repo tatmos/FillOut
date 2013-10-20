@@ -63,6 +63,7 @@
      <Compile Include="Assets\Script\ClickBallOut.cs" />
      <Compile Include="Assets\Script\DisposeHit.cs" />
      <Compile Include="Assets\Script\ReflectHit.cs" />
+     <Compile Include="Assets\Script\WallManager.cs" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />

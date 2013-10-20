@@ -803,6 +803,7 @@ GameObject:
   - 81: {fileID: 1281901824}
   - 114: {fileID: 1281901823}
   - 114: {fileID: 1281901822}
+  - 164: {fileID: 1281901827}
   m_Layer: 8
   m_Name: CameraRight
   m_TagString: MainCamera
@@ -900,6 +901,29 @@ Camera:
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_HDR: 0
+--- !u!164 &1281901827
+AudioReverbFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1281901820}
+  m_Enabled: 1
+  m_DryLevel: 0
+  m_Room: -1000
+  m_RoomHF: -400
+  m_RoomRolloff: 0
+  m_DecayTime: 17.2299995
+  m_DecayHFRatio: .560000002
+  m_ReflectionsLevel: -1713
+  m_ReverbLevel: -613
+  m_ReverbDelay: .0299999993
+  m_Diffusion: 100
+  m_Density: 100
+  m_HFReference: 5000
+  m_RoomLF: 0
+  m_LFReference: 250
+  m_ReflectionsDelay: 0
+  m_ReverbPreset: 25
 --- !u!1 &1428424467
 GameObject:
   m_ObjectHideFlags: 0
@@ -1086,14 +1110,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ballPrefab: {fileID: 500140279}
   wallPrefab: {fileID: 1445222711}
-  clashLight: {fileID: 869593411}
-  clearLevel: {fileID: 8300000, guid: 2ca80bc42e4ee4710bcc6fe522115344, type: 3}
-  gameOver: {fileID: 8300000, guid: ed534f7e721f046b59e221b4249605f8, type: 3}
-  beat1: {fileID: 8300000, guid: 90865c68f44074ca58b0b2bb231e950b, type: 3}
+  clearLevel: {fileID: 8300000, guid: 34cafd38be865462eb864c6608b4c33b, type: 3}
+  gameOver: {fileID: 8300000, guid: 34cafd38be865462eb864c6608b4c33b, type: 3}
+  beat1: {fileID: 8300000, guid: 7b9f0fbc8942f4532822628e927f35cf, type: 3}
   breakWall: {fileID: 8300000, guid: 41b15b3c19a0040d9bcf2018f4285a8e, type: 3}
-  gameTime: 40
-  RateOfFire: .25
-  startLevel: 4
+  breakWall2: {fileID: 8300000, guid: 5caf0596db495433498aa435937d665c, type: 3}
+  gameTime: 15
+  RateOfFire: .5
+  startLevel: 5
+  endLevel: 8
   eye_target: {fileID: 1281901820}
 --- !u!82 &1446379226
 AudioSource:
